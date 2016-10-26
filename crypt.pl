@@ -4,4 +4,4 @@ my $salt = '$1$qY9g/6K4$';
 my $encryptedPsw = crypt($psw, $salt);
 # print the encrypted password
 print "$encryptedPsw\n";
-# it displays: abrYmT9EbcXck
+# it displays: abrYmT9EbcXck haha
